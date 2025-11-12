@@ -29,3 +29,18 @@ The description provides more detailed information about the changes made. Usual
 
 We can add tags and external references to the commit message. In this case, the tags indicate the type of change (feature, bug fix, etc.), and the external references (such as ticket numbers) specify which issue is being addressed.
 
+
+
+3.2. How to Elaborate the Content of the Message
+
+In addition to adopting a well-defined structure, we need to know what to say and how to use the message. In practice, this involves knowing some basic principles about writing the subject and description of a commit message.
+
+The most essential principle when writing the subject is to use the imperative mood. Therefore, instead of saying “Adding…”, “Fixing…”, “Reverting…”, etc., we need to use “Add…”, “Fix…”, and “Revert…”, respectively.
+
+Another good practice is to emphasize the “why” and not just the “how”. For example, instead of writing “Add import_key() function” in the subject, it would be better to write something like “Add support for users to import keys”.
+
+This idea extends to the description of the commit. In particular, we should write the description so that other contributors can understand the changes and why. As an example, a good description for the subject presented in the previous paragraph would be something like this:
+
+"Currently, users can only use keys created within the platform. Adds the
+import_key() function to allow the import of keys created externally."
+
