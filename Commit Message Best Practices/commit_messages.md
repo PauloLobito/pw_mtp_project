@@ -44,3 +44,13 @@ This idea extends to the description of the commit. In particular, we should wri
 "Currently, users can only use keys created within the platform. Adds the
 import_key() function to allow the import of keys created externally."
 
+
+
+3.3. The 50/72 Rule
+The 50/72 rule is a widely adopted standard for normalizing the commit message format. 50 refers to the maximum number of characters of the commit message’s subject (or title). Meanwhile, 72 indicates that we should format the body of the message in columns of up to 72 characters.
+
+These limits were established based on analyzing good practices in relevant projects. An example of this is the commit messages in the Linux kernel, which have titles that summarize the changes well, usually using around 50 characters.
+
+Similarly, the widely accepted standard for the length of readable lines is 80 characters, which contributed to the column limit of up to 72 characters. Of the 80 characters, 8 are purposely cut off: 4 because Git automatically adds a 4-character padding to the left of the commit message body and the other 4 characters should be padded to the right to keep everything centred.
+
+
