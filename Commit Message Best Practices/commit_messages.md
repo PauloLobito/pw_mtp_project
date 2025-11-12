@@ -81,3 +81,11 @@ In addition, we can add BREAKING CHANGE: to the footer to indicate that the comm
 
 More recent versions of important project libs no longer support Python
 
+5. Summary
+To summarize, here’s how we can achieve great Git commit messages:
+
+Create a subject and a description (separated with a blank line)
+Specify the commit type (feat, fix, style, etc.)
+Use the imperative mood in the subject
+Explain in the description what changes were made and why
+Keep the subject up to 50 characters and the description formatted in 72-character columns
