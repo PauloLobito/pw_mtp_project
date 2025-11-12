@@ -54,3 +54,30 @@ These limits were established based on analyzing good practices in relevant proj
 Similarly, the widely accepted standard for the length of readable lines is 80 characters, which contributed to the column limit of up to 72 characters. Of the 80 characters, 8 are purposely cut off: 4 because Git automatically adds a 4-character padding to the left of the commit message body and the other 4 characters should be padded to the right to keep everything centred.
 
 
+3.4. Conventional Commits
+The Conventional Commits specification is a lightweight convention for commit messages. It provides a set of rules for adding human—and machine-readable meaning to commit messages. Thus, the main purpose is to make it easier to create automated tools on top of commit messages.
+
+In this sense, this convention adds some specific elements to commit messages. One main element is the commit type. The table below shows the most common commit types included in the specification:
+
+Type	Description
+feat	Introduce a new feature to the codebase
+fix	Fix a bug in the codebase
+docs	Create/update documentation
+style	Feature and updates related to styling
+refactor	Refactor a specific section of the codebase
+test	Add or update code related to testing
+chore	Regular code maintenance
+Also, this convention defines the subject of the commit message with the following structure:
+
+<type>(optional scope): <subject-description>
+Copy
+Following this structure, a commit that adds, for example, a new endpoint to an API to allow the creation of coupons, should have a subject that looks like this:
+
+"feat(api): Add support to create coupons"
+Copy
+In addition, we can add BREAKING CHANGE: to the footer to indicate that the commit introduces breaking changes. Alternatively, we can add ! after the commit type to highlight the breaking changes:
+
+"chore!: Update Python version to use newer libs
+
+More recent versions of important project libs no longer support Python
+
