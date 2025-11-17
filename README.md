@@ -1,10 +1,4 @@
-# Project Documentation
-
-Welcome to the project documentation! This repository is designed to provide a **comprehensive guide for contributors** and users, covering the project’s objectives, collaboration workflows, and reference materials.  
-
-The documentation is structured to make it easy to navigate and find the information you need, whether you are starting as a new contributor or looking to understand specific project practices.
-
----
+# Introduction
 
 ## 📂 Structure Overview
 
@@ -40,4 +34,24 @@ Well-maintained documentation helps onboard new members and preserves project kn
 ### 📊 [Project Management](collaboration/project_management.md)
 Discover how to **organize, prioritize, and track project work** using GitHub’s project management tools.  
 You’ll learn how to use Projects, Milestones, and Labels to plan tasks, monitor progress, and coordinate team efforts efficiently.  
+
+---
+
+### **Advanced Git Concepts** module.
+
+While basic Git commands like `add`, `commit`, and `push` are sufficient for saving your work, professional software development requires a deeper understanding of how to curate and manage project history.
+
+In this module, we will move beyond the basics and master three powerful strategies to maintain a pristine repository:
+
+1.  **Git Rebase:** To maintain a linear, easy-to-read history.
+2.  **Git Squash:** To condense noisy "work in progress" steps into polished features.
+3.  **Git Cherry-pick:** To surgically move specific commits across branches without merging unwanted code.
+
+[Link of the work] (/git_best_practises/grupo2)
+# Project Documentation
+
+Welcome to the project documentation! This repository is designed to provide a **comprehensive guide for contributors** and users, covering the project’s objectives, collaboration workflows, and reference materials.  
+
+The documentation is structured to make it easy to navigate and find the information you need, whether you are starting as a new contributor or looking to understand specific project practices.
+
 This section helps keep development aligned with goals and timelines.
